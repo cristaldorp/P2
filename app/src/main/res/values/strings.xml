@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">P2</string>
+    <string name="Titulo">Cadastro de Cidade </string>
+    <string name="Salvar_novo">Cadastrar</string>
+
+    <string name="nome_cidade">Nome: </string>
+    <string name="populacao">População: </string>
 </resources>
