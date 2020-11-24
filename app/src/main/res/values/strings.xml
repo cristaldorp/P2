@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">P2</string>
-    <string name="Titulo">Cadastro de Cidade </string>
+    <string name="textView">Cadastro de Cidade </string>
     <string name="Salvar_novo">Cadastrar</string>
+    <string name="NovaCidade">Cadastrar Nova Cidade</string>
 
     <string name="nome_cidade">Nome: </string>
     <string name="populacao">População: </string>

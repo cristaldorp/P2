@@ -7,54 +7,29 @@
     tools:context=".Main.MainActivity">
 
     <Button
-        android:id="@+id/salvarNovo"
+        android:id="@+id/NovaCidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
         android:layout_marginEnd="116dp"
-        android:layout_marginBottom="92dp"
-        android:onClick="SalvarCidade"
-        android:text="@string/Salvar_novo"
+        android:layout_marginBottom="24dp"
+        android:onClick="novaCidade"
+        android:text="@string/NovaCidade"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="56dp"
-        android:backgroundTint="#050000"
-        android:text="@string/Titulo"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/nome_veiculo"
+    <ListView
+        android:id="@+id/lista_cidade"
+        android:layout_width="409dp"
+        android:layout_height="657dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/num_pop"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="172dp"
-        android:ems="10"
-        android:hint="@string/populacao"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/nome_cidade"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="104dp"
-        android:ems="10"
-        android:hint="@string/nome_cidade"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
